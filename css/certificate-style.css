@@ -38,7 +38,6 @@ h2 {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0;
     transition: opacity .5s;
     background: rgba(53, 52, 52, 0.4);
     color: #fff;
@@ -47,20 +46,4 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.location-listing:hover .location-title {
-    opacity: 1;
-}
-
-
-
-/* for touch screen devices */
-@media (hover: none) {
-    .location-title {
-        opacity: 1;
-    }
-    .location-image img {
-        filter: blur(2px);
-    }
 }
