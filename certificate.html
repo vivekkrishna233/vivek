@@ -28,6 +28,7 @@
         <div class="container d-block">
             <span class="phone  my-0 d-none d-md-block">(+91) 6207001231</span>
             <a href = "mailto:aryanbhatt1002@gmail.com" class="email  my-0 d-none d-md-block">E-mail</a>
+            <a href = "index.html" class="email  my-0 d-none d-md-block">Home</a>
         </div>
         <button class="toggler">
             <span class="toggler-icon"></span>
@@ -46,22 +47,17 @@
     </div>
 </nav>
 
-<nav class="navbar navbar-mobile">
+<nav class="navbar navbar-mobile" style="margin: 0" >
     <ion-icon class="close" name="close-outline"></ion-icon>
     <ul class="navbar-nav navbar-nav-mobile">
-        <li class="active"><a class="nav-link active" data-menuanchor="home" href="#home">Home</a></li>
-        <li><a class="nav-link" data-menuanchor="about" href="#about">About</a></li>
-        <li><a class="nav-link" data-menuanchor="experience" href="#experience">Experience</a></li>
-        <li><a class="nav-link" data-menuanchor="skills" href="#skills">Skills</a></li>
-        <li><a class="nav-link" data-menuanchor="projects" href="#projects">Projects</a></li>
-        <li><a class="nav-link" data-menuanchor="contact" href="#contact">Contact</a></li>
+        <li><a class="nav-link" data-menuanchor="home" href="index.html">Home</a></li>
+        <li class="active"><a class="nav-link active" data-menuanchor="Certificate" href="#certificate">Certificate</a></li>
     </ul>
 </nav>
 
 <!-- Content -->
 <div id="pagepiling">
-    <!-- Home Section-->
-    <section id="home" class="text-dgray pp-scrollable d-flex align-items-center section position-absolute" role="main">
+    <section id="certificate" class="text-dgray pp-scrollable d-flex align-items-center section position-absolute" role="main">
         <div class="child-page-listing scroll-wrap" style="margin:5%">
 
             <h2 class="text-gray">My Certificates</h2>
@@ -113,6 +109,16 @@
     </section>
 </div>
 
+<div class="progress-nav">
+    <ul class="navbar-nav">
+        <li data-menuanchor="home" class="active"></li>
+        <li data-menuanchor="about"></li>
+        <li data-menuanchor="experience"></li>
+        <li data-menuanchor="skills"></li>
+        <li data-menuanchor="projects"></li>
+        <li data-menuanchor="contact"></li>
+    </ul>
+</div>
 <!-- JavaScript -->
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/popper.min.js"></script>
