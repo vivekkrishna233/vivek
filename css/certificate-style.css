@@ -1,8 +1,3 @@
-body {
-    padding: 20px;
-    font-family: sans-serif;
-    background: #fff;
-}
 img {
     width: 100%; /* need to overwrite inline dimensions */
     height: auto;
@@ -23,12 +18,12 @@ h2 {
 }
 
 .location-image {
+    margin-top: 10%;
     line-height: 0;
     overflow: hidden;
 }
 
 .location-image img {
-    filter: blur(0px);
     transition: filter 0.3s ease-in;
     transform: scale(1.1);
 }
@@ -58,9 +53,6 @@ h2 {
     opacity: 1;
 }
 
-.location-listing:hover .location-image img {
-    filter: blur(2px);
-}
 
 
 /* for touch screen devices */
