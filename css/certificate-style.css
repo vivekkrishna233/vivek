@@ -1,5 +1,5 @@
 img {
-    width: 100%; /* need to overwrite inline dimensions */
+    width: 100%;
     height: auto;
 }
 h2 {
@@ -11,8 +11,6 @@ h2 {
     grid-gap: 1em;
 }
 
-
-/* hover styles */
 .location-listing {
     position: relative;
 }
@@ -41,8 +39,6 @@ h2 {
     transition: opacity .5s;
     background: rgba(53, 52, 52, 0.4);
     color: #fff;
-
-    /* position the text in t’ middle*/
     display: flex;
     align-items: center;
     justify-content: center;
