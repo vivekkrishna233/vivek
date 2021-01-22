@@ -39,7 +39,6 @@
     clear: both;
 }
 .timeline__item:after, .timeline__item:before {
-    content: &quot;&quot;;
     position: absolute;
 }
 .timeline__item:before {
@@ -98,7 +97,7 @@
 
 .timeline__title {
     margin: 0;
-    font-family: &quot;Raleway&quot;, sans-serif;
+    font-family: sans-serif;
     font-size: 1.5em;
 }
 
